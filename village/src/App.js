@@ -32,9 +32,6 @@ class App extends Component {
 			.catch((err) => {
 				console.log('error:', err);
 			});
-		this.setState({
-			smurfs: []
-		});
 	}
 	addSmurf = (prop) => {
 		axios
