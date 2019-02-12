@@ -26,7 +26,7 @@ class App extends Component {
 			.then((res) => {
 				console.log('fetch smurf:', res.data);
 				this.setState({
-					sumrfs: res.data
+					smurfs: res.data
 				});
 			})
 			.catch((err) => {
