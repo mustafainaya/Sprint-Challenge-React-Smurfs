@@ -24,7 +24,7 @@ class App extends Component {
 		axios
 			.get(`http://localhost:3333/smurfs`)
 			.then((res) => {
-				console.log('fetch smurf:', res.date);
+				console.log('fetch smurf:', res.data);
 				this.setState({
 					sumrfs: res.data
 				});
